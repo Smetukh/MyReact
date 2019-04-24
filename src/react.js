@@ -21,8 +21,6 @@ function styleToString(style) {
 
 // append every child in array
 function anElement(element, props, children) {
-  console.log("element = ", element);
-  console.log("children = ", children);
   if (typeof element === "function") {
     return element();
   } else {
