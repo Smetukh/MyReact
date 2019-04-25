@@ -45,6 +45,8 @@ function anElement(element, props, children) {
       });
     } else if (typeof children === "object") {
       anElement.appendChild(children);
+    } else {
+      anElement.innerHTML += children;
     }
     return anElement;
   }
