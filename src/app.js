@@ -1,7 +1,7 @@
 import React from "./react";
 
 const app = React.createElement("div", { style: { backgroundColor: "red" } }, [
-  React.createElement("span", undefined, ["Hello world"]),
+  React.createElement("span", undefined, "Hello world"),
   React.createElement("br"),
   "This is just a text node",
   React.createElement("div", { textContent: "Text content" })
